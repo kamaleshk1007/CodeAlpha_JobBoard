@@ -1,0 +1,21 @@
+{
+  "name": "codealpha-job-board",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Job Board Platform backend built with Express.js",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning src/server.js",
+    "build": "node scripts/build.js",
+    "test": "node --test --disable-warning=ExperimentalWarning"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  }
+}
